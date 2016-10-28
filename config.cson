@@ -1,0 +1,25 @@
+"*":
+  "atom-beautify":
+    elm:
+      beautify_on_save: true
+    general:
+      _analyticsUserId: "5f1391b5-33b3-4f0b-a4f6-b13c1b11ac93"
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "e80bc276-128a-e8cc-d4c1-70f9db8616a8"
+  "one-dark-ui":
+    layoutMode: "Spacious"
+    tabSizing: "Even"
+  "tool-bar":
+    position: "Left"
+  welcome:
+    showOnStartup: false
