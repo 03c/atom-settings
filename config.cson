@@ -5,6 +5,18 @@
     general:
       _analyticsUserId: "5f1391b5-33b3-4f0b-a4f6-b13c1b11ac93"
   core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
@@ -16,10 +28,16 @@
     showInvisibles: true
   "exception-reporting":
     userId: "e80bc276-128a-e8cc-d4c1-70f9db8616a8"
+  "linter-elm-make":
+    elmMakeExecutablePath: "C:\\Users\\childc\\AppData\\Roaming\\npm\\elm-make"
+    lintOnTheFly: true
+    workDirectory: "."
   "one-dark-ui":
     layoutMode: "Spacious"
     tabSizing: "Even"
   "tool-bar":
     position: "Left"
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
